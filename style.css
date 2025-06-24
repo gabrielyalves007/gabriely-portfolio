@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-@media (max-width: 768px) { /*RESPONSIVIDADE*/
-  .container {
+@media (max-width: 768px) {
+  .cardsContainer {
     flex-direction: column;
     align-items: center;
   }
@@ -22,7 +22,7 @@
 }
 
 
-body{ /*CONFIGURAÇÃO BASICA PRO CONTEUDO DA PAGINA*/
+body{
     background-color: #cab79a;
     color: rgb(39, 38, 38);
     font-size: 20px;
@@ -33,7 +33,7 @@ main{
     text-align: center;
 }
 
-.sobre-container { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+.sobre-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +45,7 @@ main{
   flex-wrap: wrap;
 }
 
-.foto{ /*ARREDONDA A FOTO*/
+.foto{ 
     width: 280px;
     height: 280px;
     border-radius: 50%;
@@ -55,45 +55,45 @@ main{
     border: 3px solid #5a6b74b9;
 }
 
-.sobre-texto { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+.sobre-texto { 
   max-width: 600px;
   text-align: left;
 }
 
-.sobre-texto h2 { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+.sobre-texto h2 {
   color: #5a6b74;
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.sobre-texto p { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+.sobre-texto p { 
   color: black;
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 10px;
 }
 
-header{ /*ESTILO DO TOPO*/
+header{ 
     padding: 5px;
     margin: -10px;
     background-color: #5a6b74;
     color: #cab79a;
 }
 
-h3{ /*ESTILO DE TODOS OS H3*/
+h3{ 
     font-size: 40px;
     padding: 3px;
     margin: 20px;
     text-shadow: 3px 3px 40px rgba(255, 255, 255, 0.295);
 }
 
-hr{ /*ESTILO DA LINHA EMBAIXO DOS TITULOS*/
+hr{
     border: 1px solid #cab79a;
     width: 5%;
     margin-bottom: 30px;
 }
 
-.projeto{ /*ESTILO DO TITULO 'PROJETO'*/
+.projeto{
     font-size: 40px;
     padding: 3px;
     margin-top: 30px;
@@ -103,14 +103,14 @@ hr{ /*ESTILO DA LINHA EMBAIXO DOS TITULOS*/
     text-shadow: 5px 5px 25px rgba(255, 255, 255, 0.589);
 }
 
-.projetoHr{ /*ESTILO DA LINHA EMBAIXO DO TIL=TULO DE PROJETOS*/
+.projetoHr{ 
     border: 1px solid #5a6b74;
     width: 5%;
     margin-bottom: 30px;
 }
 
 
-h1{ /*ESTILO DO H1 NO TOP/MENU */
+h1{ 
     font-size: 50px;
     text-align: center;
     padding: 5px;
@@ -118,7 +118,7 @@ h1{ /*ESTILO DO H1 NO TOP/MENU */
     text-shadow: 3px 3px 40px rgba(255, 255, 255, 0.226);
 }
 
-nav{ /*ESTILO DA BARRA DE MENU*/
+nav{ 
     text-align: center;
     margin-top: 18px;
     display: flex;
@@ -128,14 +128,14 @@ nav{ /*ESTILO DA BARRA DE MENU*/
 }
 
 
-.link{ /*ESTILO DOS LINKS NO MENU*/
+.link{ 
     font-weight: bold;
     text-decoration: none;
     color: #cab79a;
     padding: 15px;
 }
  
-.link:hover{ /*ESTILO DO LINK DO MENU AO PASSAR O MOUSE*/
+.link:hover{ 
     
     background-color: #607681;
     padding-top: 8px;
@@ -143,9 +143,8 @@ nav{ /*ESTILO DA BARRA DE MENU*/
     border-radius: 5px;
 }
 
-/*INICIO ESTILO DOS CARDS*/
 
-.container {
+.cardsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -198,9 +197,7 @@ nav{ /*ESTILO DA BARRA DE MENU*/
 .cardBotao:hover {
     background-color: #dfceb5;
 }
-/*FIM ESTILO DOS ESTILOS DOS CARDS*/
 
-/*ESTILO DO RODAPÉ*/
 footer {
     background-color: #5a6b74;
     color: #cab79a;
@@ -209,7 +206,7 @@ footer {
     text-align: center;
 }
 
-.redesSociais{ /*INICIO ESTILO DOS LINKS/BOTOES DE REDES SOCIAIS NO RODAPÉ*/
+.redesSociais{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -228,7 +225,7 @@ footer {
     transform: scale(1.2);
 }
 
-/*INICIO ESTILO DO FORMULÁRIO*/
+
 
 form {
     display: flex;
