@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) { /*RESPONSIVIDADE*/
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+
+body{ /*CONFIGURAÇÃO BASICA PRO CONTEUDO DA PAGINA*/
+    background-color: #cab79a;
+    color: rgb(39, 38, 38);
+    font-size: 20px;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+.sobre-container { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.foto{ /*ARREDONDA A FOTO*/
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    margin-bottom: 25px;
+    border: 3px solid #5a6b74b9;
+}
+
+.sobre-texto { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+  max-width: 600px;
+  text-align: left;
+}
+
+.sobre-texto h2 { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+  color: #5a6b74;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.sobre-texto p { /*ESTILO DO TEXTO DE APRESENTAÇÃO*/
+  color: black;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+header{ /*ESTILO DO TOPO*/
+    padding: 5px;
+    margin: -10px;
+    background-color: #5a6b74;
+    color: #cab79a;
+}
+
+h3{ /*ESTILO DE TODOS OS H3*/
+    font-size: 40px;
+    padding: 3px;
+    margin: 20px;
+    text-shadow: 3px 3px 40px rgba(255, 255, 255, 0.295);
+}
+
+hr{ /*ESTILO DA LINHA EMBAIXO DOS TITULOS*/
+    border: 1px solid #cab79a;
+    width: 5%;
+    margin-bottom: 30px;
+}
+
+.projeto{ /*ESTILO DO TITULO 'PROJETO'*/
+    font-size: 40px;
+    padding: 3px;
+    margin-top: 30px;
+    background-color: #cab79a;
+    text-align: top;
+    color: #5a6b74;
+    text-shadow: 5px 5px 25px rgba(255, 255, 255, 0.589);
+}
+
+.projetoHr{ /*ESTILO DA LINHA EMBAIXO DO TIL=TULO DE PROJETOS*/
+    border: 1px solid #5a6b74;
+    width: 5%;
+    margin-bottom: 30px;
+}
+
+
+h1{ /*ESTILO DO H1 NO TOP/MENU */
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    text-shadow: 3px 3px 40px rgba(255, 255, 255, 0.226);
+}
+
+nav{ /*ESTILO DA BARRA DE MENU*/
+    text-align: center;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.link{ /*ESTILO DOS LINKS NO MENU*/
+    font-weight: bold;
+    text-decoration: none;
+    color: #cab79a;
+    padding: 15px;
+}
+ 
+.link:hover{ /*ESTILO DO LINK DO MENU AO PASSAR O MOUSE*/
+    
+    background-color: #607681;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+/*INICIO ESTILO DOS CARDS*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #bda581;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 17px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.39);
+
+}
+
+.card:hover {
+    background-color: #b1916b;
+    transform: scale(1.05);
+}
+
+
+.card p {
+    font-weight: bold;
+    font-size: 19px;
+    color: black;
+}
+
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.cardBotao{
+    background-color: #cab79a;
+    font-size: 15px;
+    color: #333;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.39);
+}
+
+.cardBotao:hover {
+    background-color: #dfceb5;
+}
+/*FIM ESTILO DOS ESTILOS DOS CARDS*/
+
+/*ESTILO DO RODAPÉ*/
+footer {
+    background-color: #5a6b74;
+    color: #cab79a;
+    padding: 16px;
+    margin: -8px;
+    text-align: center;
+}
+
+.redesSociais{ /*INICIO ESTILO DOS LINKS/BOTOES DE REDES SOCIAIS NO RODAPÉ*/
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.redesSociais a img{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    transition: 0.8s;
+}
+
+.redesSociais a img:hover{
+    background-color: #5a6b74;
+    transform: scale(1.2);
+}
+
+/*INICIO ESTILO DO FORMULÁRIO*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+form button {
+    background-color: #cab79a;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #bda581;
+}
+
+#resposta {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}

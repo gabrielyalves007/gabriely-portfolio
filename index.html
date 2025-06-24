@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Gabriely | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header> 
+        <h1>Gabriely</h1> <!--TOPO-->
+        <nav>
+        <a href="#SobreMim" class="link">Sobre Mim</a> <!--MENU-->
+        <a href="#Formação" class="link">Formação</a> <!--MENU-->
+        <a href="#Projetos" class="link">Projetos</a> <!--MENU-->
+        <a href="#Contato" class="link">Contato</a> <!--MENU-->
+        </nav>
+    </header>
+    <main>
+        <section id="SobreMim" class="sobre-container"> <!--ID DO MENU-->
+            <div>
+                <img src="imagens/gabyy.jpg" alt="gaby"  class="foto"> <!--DIV PARA ADICIONAR FOTO-->
+            </div>
+
+            <div class="sobre-texto">
+                <h2>Hello, World! Eu sou Gabriely!</h2>
+
+                <br>
+
+                <p>Sou Gabriely, estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia, programação e soluções criativas.
+                </p> <!--PARAGRAFO DE APRESENTAÇÃO-->
+                <p>Tenho me dedicado a desenvolver projetos práticos que unem lógica, design e usabilidade. Fora do trabalho e dos estudos, gosto de leitura, música, séries, Muay Thai e momentos com minha família e amigos.
+                </p> <!--PARAGRAFO DE APRESENTAÇÃO-->
+            </div>
+            </section>
+
+        <header>
+            <h3 id="Formação">Formação</h3> <!--ID DO MENU-->
+            <hr> <!--TAG QUE ADICIONA A LINHA EMBAIXO DO TEXTO-->
+
+        <div class="container"> <!--DIV PARA CARDS DE FORMAÇÕES -->
+            <div class="card">
+                <img src="imagens/ADS LOGO.png" alt="análise e desenvolvimento de sistemas">
+                <p>
+                    Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, área que escolhi por minha paixão por tecnologia e inovação.
+                </p>
+            </div>
+            <div class="card">
+                <img src="imagens/globo terrestre.png" alt="análise e desenvolvimento de sistemas">
+                <p>
+                    Sou fluente em inglês, o que me permite ampliar meus conhecimentos e me conectar com conteúdos e pessoas do mundo todo.
+                </p>
+            </div>
+        </div> 
+        </header>
+
+        <h3 class="projeto" id="Projetos">Projetos</h3> <!--ID DO MENU-->
+        <hr class="projetoHr">
+
+        <div class="container">    <!--DIV PARE CARDS DE PROJETOS-->
+                <div class="card">
+                    <img src="imagens/android.png" alt="">
+                    
+                    <p>Site desenvolvido em HTLM e CSS sobre Curiosidades de Tecnologia - História do Mascote do Android.</p>
+
+                    <a href="https://gabrielyalves007.github.io/curiosidades-de-tecnologia/" target="_blank">
+                    <button class="cardBotao">Conferir</button> <!--BOTAO QUE ABRE O PROJETO-->
+                    </a>
+
+                </div>
+                <div class="card">
+                    <h3>Em breve</h3>
+                    <br>
+                    <p>...</p>
+                    <br>
+                    <p>Aprendizado constante!Em breve muitos outros projetos.</p>
+                </div>
+        </div>        
+        </div>
+    </main>
+
+<footer> <!--RODAPÉ-->
+
+    <script src="js/script.js"></script>
+
+    <div class="redesSociais"> <!--ID DO MENU-->
+
+        <!--LINKS DAS REDES SOCIAIS-->
+            <a href="https://www.instagram.com/gaby_alves007/" target="_blank"> <img src="imagens/instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/gabrielyalves007" target="_blank"><img src="imagens/github.png" alt="Github"></a>
+            <a href="https://api.whatsapp.com/send/?phone=24999390665&text&type=phone_number&app_absent=0" target="_blank"> <img src="imagens/whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.facebook.com/profile.php?"id=61576920796494 target="_blank"> <img src="imagens/facebook.png" alt="Facebook"></a>
+    </div>
+
+    <h3 id="Contato">Deixe uma mensagem</h3> <!--ID DO MENU-->
+
+    <form id="formContato"> <!--FORMULÁRIO DE CONTATO-->
+
+        <input type="text" id="nome" placeholder="Seu nome" required>
+
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+
+        <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <p id="resposta"></p>
+
+</footer>
+
+</body>
+</html>
