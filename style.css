@@ -108,10 +108,10 @@ h1{
 
 nav{ 
     text-align: center;
-    margin-top: 18px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -120,7 +120,7 @@ nav{
     font-weight: bold;
     text-decoration: none;
     color: #cab79a;
-    padding: 15px;
+    padding: 7px;
 }
  
 .link:hover{ 
